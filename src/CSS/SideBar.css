@@ -16,3 +16,22 @@
 .bg-green{
     background-color: rgba(33, 93, 79, 0.2);
 }
+
+/* .items-center{
+    width: 310px;
+    height: 2099px;
+    flex-shrink: 0;
+}
+
+.banner.flex{
+    width: 970px;
+    height: 239px;
+    flex-shrink: 0;
+}
+
+.bg-slate-green{
+    width: 970px;
+    height: 120px;
+    flex-shrink: 0;
+} */
+

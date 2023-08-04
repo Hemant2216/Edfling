@@ -3,7 +3,7 @@ import placement from '../images/page65/placement.svg'
 
 const SubmitPlacement = () => {
   return (
-    <div className='flex max-sm:flex-col w-full justify-between bg-slate-green rounded-2xl mt-5 py-3 px-4'>
+    <div className='flex max-sm:flex-col w-full justify-between bg-slate-green rounded-2xl mt-5 py-3 px-4' style={{marginLeft:"20px",width:"970px",height:"120px"}}>
       <div className='flex w-4/6 max-sm:w-full items-center gap-3 max-sm:justify-center max-sm:mb-4'>
         <img src={placement} alt="placement" />
         <div className='text-white '>Share your placement with us</div>

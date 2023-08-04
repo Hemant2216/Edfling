@@ -19,12 +19,12 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Page18 from "./Pages/Page18";
 import Invoice from "./Pages/Invoice";
-
+import Page65 from "./Pages/Page65";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Navbar/>
         <Routes>
           <Route path="/page57" element={<Page57 />} />
@@ -46,7 +46,8 @@ function App() {
           <Route path="/invoice" element={<Invoice />} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Page65/>
     </>
   );
 }
