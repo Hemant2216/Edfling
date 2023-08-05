@@ -1,2 +1,31 @@
+.self-start{
+    background-color: #CB8461;
+}
+.rounded-2xl{
+    height: 345px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.h-20{
+    margin-top: 21px;
+}
+
+.text-xl{
+    margin-top: 12px;
+}
+
+.text-base{
+    margin-top: 5px;
+}
+
+.cardfoot{
+    
+    margin-left: 52px;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 13px;
+
+}
 
 

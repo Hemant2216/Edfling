@@ -5,16 +5,18 @@ const Page65Card = () =>{
     return(
 
         <div className=" flex flex-column justify-items-center items-center w-80 h-80 rounded-2xl border-orange-200 border-2">
-            <div className="self-start">
-                <h3>Full-Time</h3>
+            <div className="self-start rounded-r-2xl  relative top-5 w-32 h-8 pt-2 pl-7 pb-2 pr-7">
+                <h3 className="text-white text-sm font-semibold font-poppins non-italic">Full-Time</h3>
             </div>
 
-            <img className="w-20 h-20 mt-12" src={ellipse249}/>
-            <h2>Smit Thakkar</h2>
-            <h3>2017-2022</h3>
+            <img className="w-20 h-20" src={ellipse249}/>
+            <h2 className="text-green-800 font-poppins text-xl font-semibold non-italic">Smit Thakkar</h2>
+            <h3 className="text-base font-poppins font-semibold text-green-800 non-talic">2017-2022</h3>
             <img className="w-20 h-12" src={accenture}/>
-            <h3>Company Name : Accenture</h3>
-            <h3>Role :  Associate Developement Manager</h3>
+            <h3 className="text-sm font-medium text-black font-poppins non-italic">Company Name : <span className="text-base font-poppins font-semibold text-green-800 non-talic">Accenture</span> </h3>
+            <div className="cardfoot">
+             <div className="text-sm font-medium text-black font-poppins non-italic w-11">Role :</div> <div className="flex flex-column text-sm font-poppins font-bold text-green-800 non-talic">Associate Developement Manager</div>
+            </div>
 
         </div>
 

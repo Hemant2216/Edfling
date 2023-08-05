@@ -6,6 +6,7 @@ import SideBarCourses from '../Components/SidebarCourses'
 import line1 from '../images/page65/line1.svg'
 import line2 from '../images/page65/line2.svg'
 import Page65Card from '../Components/Page65Card'
+
 import "../CSS/Page65.css";
 
 const Page65 = () => {
@@ -26,7 +27,15 @@ const Page65 = () => {
           <h3 className='text-2xl text-green-800 font-medium'>Your College Mate</h3>
           <img className='w-28' src={line2}/>
         </div>
+        <div className='grid grid-cols-3 gap-5'>
         <Page65Card/>
+        <Page65Card/>
+        <Page65Card/>
+        <Page65Card/>
+        <Page65Card/>
+        <Page65Card/>
+        </div>
+        
       </div>
       
       
