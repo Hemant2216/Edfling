@@ -10,7 +10,7 @@ const Page65Card = () =>{
             </div>
 
             <img className="w-20 h-20" src={ellipse249}/>
-            <h2 className="text-green-800 font-poppins text-xl font-semibold non-italic">Smit Thakkar</h2>
+            <h2 className="empname text-green-800 font-poppins text-xl font-semibold non-italic">Smit Thakkar</h2>
             <h3 className="text-base font-poppins font-semibold text-green-800 non-talic">2017-2022</h3>
             <img className="w-20 h-12" src={accenture}/>
             <h3 className="text-sm font-medium text-black font-poppins non-italic">Company Name : <span className="text-base font-poppins font-semibold text-green-800 non-talic">Accenture</span> </h3>

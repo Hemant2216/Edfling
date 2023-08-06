@@ -17,7 +17,7 @@ const SideBarCourse = () => {
     <>
       <div
         className="w-full h-[740px] md:h-[1500px] relative flex flex-col  items-center md:items-stretch overflow-hidden"
-        style={{ background: "#215D4F" ,height:"2099px",width:"310px",marginTop:"87px"}}
+        style={{ background: "#215D4F" ,height:"2206px",width:"310px",marginTop:"87px"}}
       >
         {/* sidebar heading */}
         <div className="flex pt-5 ml-[40px]">

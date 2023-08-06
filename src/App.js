@@ -24,7 +24,7 @@ import Page65 from "./Pages/Page65";
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <Navbar/>
         <Routes>
           <Route path="/page57" element={<Page57 />} />
@@ -47,8 +47,8 @@ function App() {
           <Route path="/Page65" element={<Page65 />} />
         </Routes>
         <Footer/>
-      </BrowserRouter> */}
-      <Page65/>
+      </BrowserRouter>
+      
     </>
   );
 }
